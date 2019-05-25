@@ -1,0 +1,15 @@
+
+DirectoryIndex index.htm
+
+RewriteEngine On
+Options -Indexes
+
+# normalise the url, strip out any prefixes (e.g. "www.")
+RewriteCond %{HTTP_HOST}        !^cravenhillgardens\.org.* [NC]
+RewriteCond %{HTTP_HOST}        !^localhost.*$ [NC]
+RewriteCond %{HTTP_HOST}        !^$
+RewriteRule (.*)                http://cravenhillgardens.org/$1 [R=301,L]
+
+RewriteRule ^([A-Za-z]+)/?$ 	/$1.htm [L]
+
+

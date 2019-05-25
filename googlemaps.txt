@@ -1,0 +1,1 @@
+google.visualization.Query.setResponse({requestId:'0',status:'ok',signature:'4648419300596197257',table:{cols: [{id:'A',label:'',type:'t',pattern:''},{id:'B',label:'',type:'t',pattern:''}],rows: [[{v:'39 Craven Hill Gardens, London, W2 3EA, United Kingdom'},{v:'38 to 41 Craven Hill Gardens, London W2 3EA'}]]}});
